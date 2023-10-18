@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Tags and Styles Example</title>
+    <style>
+        /* Style for unordered list */
+        ul {
+            color: blue;
+            font-size: 18px;
+        }
+
+        /* Style for ordered list */
+        ol {
+            color: green;
+            font-size: 18px;
+        }
+
+        /* Style for table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        /* Style for table headers */
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Style for specific table cell */
+        td.highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- Unordered List -->
+    <h2>Unordered List:</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <h2>Ordered List:</h2>
+    <ol>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ol>
+
+    <!-- Table -->
+    <h2>Table:</h2>
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+            <td class="highlight">Row 1, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+        </tr>
+    </table>
+</body>
+</html>

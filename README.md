@@ -1,2 +1,1 @@
-# hahaha
-C/W 1
+# proj 1

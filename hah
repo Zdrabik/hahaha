@@ -1,74 +1,104 @@
+
 <!DOCTYPE html>
-<html>
-<head>
-    <title>HTML Tags and Styles Example</title>
-    <style>
-        /* Style for unordered list */
-        ul {
-            color: blue;
-            font-size: 18px;
-        }
+<html lang="en">
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Personal Portfolio</title>
+<style>
+body {
+font-family: Arial, sans-serif; margin: 0; padding: 0; 
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
 
-        /* Style for ordered list */
-        ol {
-            color: green;
-            font-size: 18px;
-        }
+.header {
+  background-color: #2e86c1;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
 
-        /* Style for table */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
+.content {
+  margin-top: 2rem;
+}
 
-        /* Style for table headers */
-        th, td {
-            border: 1px solid black;
-            padding: 10px;
-            text-align: center;
-        }
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
 
-        /* Style for specific table cell */
-        td.highlight {
-            background-color: yellow;
-        }
-    </style>
+.skill {
+  background-color: #e8e8e8;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.project {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #2e86c1;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+</style> 
 </head>
-<body>
-    <!-- Unordered List -->
-    <h2>Unordered List:</h2>
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
-
-    <!-- Ordered List -->
-    <h2>Ordered List:</h2>
-    <ol>
-        <li>First Item</li>
-        <li>Second Item</li>
-        <li>Third Item</li>
-    </ol>
-
-    <!-- Table -->
-    <h2>Table:</h2>
-    <table>
-        <tr>
-            <th>Header 1</th>
-            <th>Header 2</th>
-            <th>Header 3</th>
-        </tr>
-        <tr>
-            <td>Row 1, Cell 1</td>
-            <td>Row 1, Cell 2</td>
-            <td class="highlight">Row 1, Cell 3</td>
-        </tr>
-        <tr>
-            <td>Row 2, Cell 1</td>
-            <td>Row 2, Cell 2</td>
-            <td>Row 2, Cell 3</td>
-        </tr>
-    </table>
+<body> 
+<div class="container"> 
+<div class="header"> 
+<h1>Your Name</h1> 
+<p>Web Developer | UCLA Extension</p> </div> <div class="content"> 
+<section class="skills"> 
+<div class="skill"> 
+<h2>HTML</h2>
+<p>Expert</p>
+</div> 
+<div class="skill">
+<h2>CSS</h2>
+<p>Expert</p>
+</div>
+<div class="skill"> 
+<h2>JavaScript</h2>
+<p>Intermediate</p>
+</div> 
+</section> 
+<section class="projects">
+<div class="project">
+<h2>Project 1</h2>
+<p>Description</p> 
+</div> 
+<div class="project">
+<h2>Project 2</h2>
+<p>Description</p> 
+</div>
+<div class="project">
+<h2>Project 3</h2>
+<p>Description</p> 
+</div> 
+</section>
+</div>
+<div class="footer"> 
+<p>Email: youremail@gmail.com</p>
+<p>Phone: (123) 456-7890</p>
+</div> 
+</div> 
 </body>
 </html>
+
+
